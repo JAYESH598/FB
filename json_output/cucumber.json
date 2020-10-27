@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Facebook login Test Scenario",
+        "description": "",
+        "id": "facebook-login--action-feature;facebook-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15762310300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should enter the url",
+            "match": {
+              "location": "LoginstepDefinition1.user_present_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2106820200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "title of the page is facebook",
+            "match": {
+              "location": "LoginstepDefinition1.title_of_the_page_is_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 697761100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \" jayeshkani25@gmail.com \" and \"$XSM7#@25 \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " jayeshkani25@gmail.com ",
+                  "offset": 19
+                },
+                {
+                  "val": "$XSM7#@25 ",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginstepDefinition1.user_should_enter_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2293613200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click on login button",
+            "match": {
+              "location": "LoginstepDefinition1.user_should_click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login  Action Feature",
+    "description": "",
+    "id": "facebook-login--action-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/user/eclipse-workspace/FaceBook-1/src/main/java/Features/login1.feature"
+  }
+]
